@@ -1,0 +1,20 @@
+model:
+  base_model: "stabilityai/stable-diffusion-xl-base-1.0"
+  controlnet_models:
+    canny: "diffusers/controlnet-canny-sdxl-1.0"
+    depth: "diffusers/controlnet-depth-sdxl-1.0"
+    pose: "thibaud/controlnet-openpose-sdxl-1.0"
+
+generation:
+  num_inference_steps: 30
+  guidance_scale: 7.5
+  controlnet_conditioning_scale: 0.8
+  width: 1024
+  height: 1024
+
+preprocessing:
+  canny:
+    low_threshold: 100
+    high_threshold: 200
+  depth:
+    model_type: "DPT_Large"
