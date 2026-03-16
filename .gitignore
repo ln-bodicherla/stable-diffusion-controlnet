@@ -1,53 +1,73 @@
-# Python
+
 __pycache__/
-*.py[cod]
-*$py.class
-*.so
-*.egg-info/
-dist/
-build/
-*.egg
-
-# Virtual environments
-venv/
-.venv/
-env/
-
-# IDE
-.vscode/
-.idea/
-*.swp
-*.swo
-*~
-
-# OS
+!.env.example
+!.env.sample
+!examples/*.jpg
+!examples/*.png
+.build/
+.cache/
 .DS_Store
-Thumbs.db
-
-# Model weights and caches
-*.ckpt
-*.safetensors
+.eggs/
+.env
+.env.*
+.env.local
+.idea/
+.swiftpm/
+.venv/
+.vscode/
+*.app
 *.bin
+*.ckpt
+*.db
+*.db-shm
+*.db-wal
+*.egg
+*.egg-info/
+*.ipa
+*.jpeg
+*.jpg
+*.key
+*.log
+*.pem
+*.png
 *.pt
 *.pth
-models/
-.cache/
-huggingface/
-
-# Outputs
-outputs/
-*.png
-*.jpg
-*.jpeg
+*.py[cod]
+*.pyc
+*.safetensors
+*.secret
+*.so
+*.sqlite
+*.sqlite3
+*.swo
+*.swp
 *.webp
-!examples/*.png
-!examples/*.jpg
-
-# Logs
-*.log
-wandb/
-runs/
-
+*.xcodeproj/xcuserdata/
+*.xcworkspace/xcuserdata/
+*~
+*$py.class
+# Build
+# Databases
+# Dependencies
 # Environment
-.env
-.env.local
+# IDE
+# Logs
+# Model weights and caches
+# OS
+# Outputs
+# Python
+# Secrets
+# Virtual environments
+build/
+credentials*
+DerivedData/
+dist/
+env/
+huggingface/
+models/
+node_modules/
+outputs/
+runs/
+Thumbs.db
+venv/
+wandb/
