@@ -1,6 +1,6 @@
 # Stable Diffusion XL + ControlNet Pipeline
 
-A production-ready pipeline for generating controlled images using Stable Diffusion XL with ControlNet conditioning. Supports depth maps, Canny edge detection, and OpenPose skeletal maps for precise spatial control over generated images.
+A pipeline for generating controlled images using Stable Diffusion XL with ControlNet conditioning. Supports depth maps, Canny edge detection, and OpenPose skeletal maps for precise spatial control over generated images.
 
 ## Architecture
 
@@ -65,7 +65,7 @@ A production-ready pipeline for generating controlled images using Stable Diffus
 ### Installation
 
 ```bash
-git clone https://github.com/yourusername/stable-diffusion-controlnet.git
+git clone https://github.com/ln-bodicherla/stable-diffusion-controlnet.git
 cd stable-diffusion-controlnet
 python -m venv venv
 source venv/bin/activate
